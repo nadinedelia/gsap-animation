@@ -14,8 +14,16 @@ html, body{
 header{
     height: 100vh;
     position: relative;
+    display: flex;
 }
 
+
+.cover-date{
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    color: white;
+}
 
 .cover{
     height: 100%;
@@ -24,6 +32,7 @@ header{
     top: 0;
     right: 0;
     object-fit: cover;
+    object-position: top;
 }
 
 .nav-images img {
