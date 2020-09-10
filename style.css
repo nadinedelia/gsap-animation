@@ -11,6 +11,21 @@ html, body{
     background: black; 
 }
 
+header{
+    height: 100vh;
+    position: relative;
+}
+
+
+.cover{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+}
+
 .nav-images img {
     height: 250px;
 }
