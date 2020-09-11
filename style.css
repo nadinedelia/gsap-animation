@@ -54,6 +54,13 @@ nav{
     position: absolute;
 }
 
+.nav-closed ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none;
+}
+
 .nav-open{
     position: absolute;
     width: 40%;
@@ -78,6 +85,10 @@ nav{
     font-size: 50px;
 }
 
+.clothing ul {
+    list-style: none;
+}
+
 .clothing ul li {
     padding-bottom: 10px;
 }
@@ -86,6 +97,13 @@ nav{
     text-decoration: none;
     color: #916356;
 }
+
+.nav-images {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
 
 .nav-images img {
     height: 250px;
